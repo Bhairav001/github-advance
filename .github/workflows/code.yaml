@@ -7,14 +7,14 @@ on:
 
   pull_request:
    branches:
-    -master
+    -main
 #function(what need to be done)
 jobs:
   # build job
   build:
     # name of the job
     name: Build
-       runs-on: windows-latest
+       runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
