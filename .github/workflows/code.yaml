@@ -1,13 +1,13 @@
 
 #trigger(events)
-name: gitstar
+name: deploy-github
 
 on:
   push:
 
   pull_request:
    branches:
-    -main
+    -master
 #function(what need to be done)
 jobs:
   build:
