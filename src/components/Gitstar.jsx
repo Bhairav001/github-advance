@@ -32,6 +32,7 @@ console.log(data)
           data.map((el)=>(
             <div key={el.id}>
               <img style={{width:"250px"}} src={el.owner.avatar_url} alt="" />
+              <p>{el.owner.type}</p>
             </div>
           ))
         }

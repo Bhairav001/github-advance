@@ -7,7 +7,7 @@ on:
 
   pull_request:
    branches:
-    -main
+    -master
 #function(what need to be done)
 jobs:
   # build job
